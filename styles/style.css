@@ -135,8 +135,8 @@ header{
     position: absolute;
     width: 12.87rem;
     padding: 20px 23px;
-    top: 67%;
-    right: 28%;
+    top: 72%;
+    right: 30%;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -417,161 +417,189 @@ footer{
   }
 
   @media screen and (max-width:576px) {
-    .container{
-        width: 90%;
-        margin: 0 auto;
-      }
-      .btn-first{
-        padding: 15px 16px;
-        border-radius: 42px;
-        color: white;
-        font-size: 1rem;
-        background-color: rgb(230, 83, 60);
-        cursor: pointer;
-      }
-      .btn-second{
-        padding: 15px 16px;
-        border-radius: 42px;
-        font-size: 1rem;
-        background-color: black;
-        color: white;
-        border: 1px solid white;
-        cursor: pointer;
-      }
-      .common-h1{
-        width: 100%;
-        margin: 0 auto 58px;
-        padding: 0 10px;
-      }
-      .common-title{
-        font-size: 2.25rem;
-        font-weight: 900;
-        margin-bottom: 14px;
-        text-align: center;
-      }
-      .navbar{
-        margin-bottom: 75px;
-      }
-      .nav-cont{
-        padding-top: 52px;
-      }
-      .n-menu{
-        display: none;
-      }
-      .n-ham{
-        display: block;
-        cursor: pointer;
-        color: white;
-        font-size: 1.5rem;
-      }
-      .b-container{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-      }
-      .banner-img{
-        width: 100%;
-      }
-      .banner-img img{
-        width: 100%;
-      }
-      .b-written{
-        width: 70%;
-      }
-      .b-title{
-        font-size: 2.7rem;
-        font-weight: 900;
-        text-align: left;
-        line-height: 3rem;
-      }
-      .b-span{
-        font-family: miamaFont;
-        color: rgb(255, 255, 255);
-        font-size: 6rem;
-        font-weight:400;
-    }
-      .banner-btn{
-        display: none;
-      }
-      .b-btn-2{
-        margin-bottom: 64px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-      }
-      .b-cart-1{
-        top: 84%;
-      }
-      .b-cart-2{
-        top: 120%;
-        right: 55%;
-      }
-      .cards-cont{
-        display: flex;
-        flex-direction: column;
-      }
-      .c-cont{
-        margin-bottom: 36px;
-      }
-      .run-cont{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-      .run-heading{
-        width: 80%;
-        margin: 30px auto;
-      }
-      .run-title{
-        font-size: 2rem;
-        text-align: left;
-      }
-      .btn-large{
-        width: 100%;
-      }
-      .run-img{
-        margin: 0 auto 30px;
-        width: 80%;
-        height: auto;
-        
-      }
-      .run-img img{
-        width: 100%;
-      }
-      .run-title{
-        padding-right: 30px;
-      }
-      .gym-card-cont{
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        gap: 30px;
-      }
-      .gym-card{
-        width: 88%;
-        padding: 20px;
-        border-radius: 18px;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        background-color: rgb(34, 34, 34);
-      }
-      .bmi-heading{
-        width: 90%;
-        padding: 0;
-      }
-      .bmi-title{
-        text-align: left;
-      }
-      .bmi-des{
-        text-align: left;
-      }
-      .bmi-main-cont{
-        display: flex;
-        flex-direction: column;
-      }
-      .bmi-chart-cont{
-        width: 90%;
-        margin-bottom: 40px;
-      }
-      .cal-bmi{
-        width: 100%;
-      }
+ .container{
+    width: 90%;
+   margin: 0 auto;
+  }
+.btn-first{
+    padding: 15px 16px;
+    border-radius: 42px;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(230, 83, 60);
+    cursor: pointer;
+ }
+.btn-second{
+    padding: 15px 16px;
+    border-radius: 42px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.common-h1{
+    width: 100%;
+    margin: 0 auto 58px;
+    padding: 0 10px;
+}
+.common-title{
+    font-size: 2.25rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.navbar{
+    margin-bottom: 75px;
+}
+.nav-cont{
+    padding-top: 52px;
+}
+.n-menu{
+    display: none;
+}
+.n-ham{
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+}
+.b-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
+.b-written{
+    width: 70%;
+}
+.b-title{
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 3rem;
+}
+.b-span{
+    font-family: miamaFont;
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    font-weight:400;
+}
+.banner-btn{
+   display: none;
+}
+.b-btn-2{
+    margin-bottom: 64px;
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+  }
+.b-cart-1{
+   top: 84%;
+}
+.b-cart-2{
+    top: 120%;
+    right: 55%;
+ }
+ .cards-cont{
+    display: flex;
+    flex-direction: column;
+}
+.c-cont{
+margin-bottom: 36px;
+}
+.run-cont{
+    display: flex;
+flex-direction: column;
+    justify-content: center;
+}
+.run-heading{
+    width: 80%;
+    margin: 30px auto;
+}
+.run-title{
+    font-size: 2rem;
+    text-align: left;
+}
+.btn-large{
+    width: 100%;
+}
+.run-img{
+    margin: 0 auto 30px;
+    width: 80%;
+   height: auto;
+}
+.run-img img{
+   width: 100%;
+}
+.run-title{
+    padding-right: 30px;
+}
+.gym-card-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    gap: 30px;
+}
+.gym-card{
+    width: 88%;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(34, 34, 34);
+}
+.bmi-heading{
+    width: 90%;
+    padding: 0;
+}
+.bmi-title{
+    text-align: left;
+}
+.bmi-des{
+    text-align: left;
+}
+.bmi-main-cont{
+    display: flex;
+    flex-direction: column;
+}
+.bmi-chart-cont{
+    width: 90%;
+    margin-bottom: 40px;
+}
+.cal-bmi{
+    width: 100%;
+}
+.meet-main-cont{
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.trainer-1, .trainer-4{
+    display: none;
+}
+.footer-top{
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+.footer-top-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-heading{
+    text-align: left;
+  }
+  .footer-title{
+    text-align: left;
+  }
+  .footer-link-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
