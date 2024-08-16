@@ -228,8 +228,27 @@ header{
     height: 312px;
     
   }
-   .run-img img{
+.run-img img{
     width: 100%;
     height: 100%;
     border-radius: 18px;
    } 
+.gym-card-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+.gym-card{
+    width: 30%;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(34, 34, 34);
+  }
+.gym-card-title{
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+.gym-card-des{
+    color: rgba(255, 255, 255, 0.5);
+  }
