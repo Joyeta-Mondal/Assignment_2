@@ -166,3 +166,41 @@ header{
   .b-cart-des2{
     color: rgba(239, 237, 232, 0.65);
   }
+
+.common-h1{
+    width: 60%;
+    margin: 0 auto 58px;
+    text-align: center;
+  }
+.common-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+  }
+.common-des{
+    color: rgba(255, 255, 255, 0.5);
+  }
+.cards-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+.c-img{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+.c-img img{
+    border-radius: 50%;
+    border: 1px solid white;
+  }
+.c-text{
+    text-align: center;
+  }
+.c-title{
+    margin-bottom: 6px;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+.c-des{
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.5);
+  }
