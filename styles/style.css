@@ -225,7 +225,7 @@ header{
 .run-img{
     margin: 30px 32px 30px 0;
     width: 366px;
-    height: 312px;
+    height: 300px;
     
   }
 .run-img img{
@@ -250,5 +250,41 @@ header{
     margin-bottom: 16px;
   }
 .gym-card-des{
+    color: rgba(255, 255, 255, 0.5);
+  }
+.bmi{
+    background-color: rgb(34, 34, 34);
+  }
+.bmi-cont{
+    padding: 50px 0 50px;
+  }
+.bmi-title{
+    text-align: start;
+  }
+.bmi-des{
+    text-align: start;
+  }
+.bmi-main-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+.bmi-chart-cont{
+    width: 40%;
+  }
+  .bmi-chart-title{
+    font-size: 1.75rem;
+  }
+  .bmi-chart-table{
+    margin-top: 50px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  .bmi-chart-table th,td{
+    padding: 15px 20px 15px 18px;
+  }
+  .bmi-chart-table,td,th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .bmi-chart-table td{
     color: rgba(255, 255, 255, 0.5);
   }
