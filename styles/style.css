@@ -45,7 +45,7 @@ body{
     cursor: pointer;
   }
 .section-dist{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -253,23 +253,25 @@ header{
     color: rgba(255, 255, 255, 0.5);
   }
 .bmi{
-    background-color: rgb(34, 34, 34);
+    /* background-color: rgb(34, 34, 34); */
   }
 .bmi-cont{
     padding: 50px 0 50px;
   }
 .bmi-title{
+    /* margin-top: 50px; */
     text-align: start;
   }
 .bmi-des{
     text-align: start;
   }
 .bmi-main-cont{
+    background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
   }
 .bmi-chart-cont{
-    width: 40%;
+    height: 480px;
   }
   .bmi-chart-title{
     font-size: 1.75rem;
@@ -285,7 +287,7 @@ header{
   .bmi-chart-table,td,th{
     border: 1px solid rgba(255, 255, 255, 0.5);
   }
-  .bmi-chart-table td{
+.bmi-chart-table td{
     color: rgba(255, 255, 255, 0.5);
   }
 .calcu-bmi{
@@ -317,3 +319,50 @@ header{
 #activity{
     width: 205.5%;
 }
+.meet-main-cont{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: rgba(255, 255, 255, 0.1);
+}
+.trainer-1{
+   background-image: url(../images/trainer1.png);
+ }
+.trainer-2{
+   background-image: url(../images/trainer2.png);
+ }
+ .trainer-3{
+   background-image: url(../images/trainer3.png);
+ }
+ .trainer-4{
+   background-image: url(../images/trainer4.png);
+ }
+ .trainer-5{
+   background-image: url(../images/trainer5.png);
+ }
+ .trainer-6{
+   background-image: url(../images/trainer6.png);
+ }
+ .img-cont{
+   height: 270px;
+   width: 100%;
+   position: relative;
+   border-radius: 15px;
+   background-size:cover;
+   background-position:center;
+   background-color: rgba(255, 255, 255, .2);
+}
+.meet-title{
+   margin-left: 30px;
+   margin-top: 210px;
+   font-size: 1.25rem;
+   font-weight: 900;
+ }
+.meet-des{
+   margin-left: 30px;
+   margin-top: 5px;
+   font-size: .825rem;
+   color: rgba(255, 255, 255, 0.8);
+ }
