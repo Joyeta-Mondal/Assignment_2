@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: miamaFont;
+  src: url("../fonts/Miama.ttf");
+}
+
+.main-font-grp {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+  }
+*{
+    margin: 0;
+    font-family: Inter;
+  }
+body{
+    background-color: black;
+  }
+.primary-colour{
+    color: rgb(230, 83, 60);
+  }
+  .container{
+    width: 73.6%;
+    margin: 0 auto;
+  }
+.btn-first{
+    margin-right: 14px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(230, 83, 60);
+    cursor: pointer;
+    border: none;
+  }
+.btn-second{
+    padding: 15px 39px;
+    border-radius: 42px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+.section-dist{
+    margin-bottom: 100px;
+  }
+
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  }  
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    margin-bottom: 32px;
+  }
+.n-logo{
+    font-style: italic;
+    font-size: 2.25rem;
+    font-weight: 800;
+  }
+  .n-menu ul li{
+    display: inline-block;
+    margin-left: 47px;
+    list-style: none;
+  }
+  .n-menu ul li a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+    
+  }
+  .n-ham{
+    display: none;
+  }
+.home{
+    background-color:rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+.b-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.b-written{
+    width: 37.5rem;
+    padding-right: 4.81rem;
+  }
+.b-title{
+    font-size: 4.875rem;
+    font-weight: 900;
+    text-align: left;
+    line-height: 5rem;
+  }
+.b-span{
+    font-family: miamaFont;
+    color: rgb(255, 255, 255);
+    font-size: 9rem;
+    font-weight:400;
+}
+.banner-des{
+    margin: 28px 0;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+  }
+  .b-btn-2{
+    display: none;
+  }
+.b-cart-1{
+    position: absolute;
+    width: 12rem;
+    padding: 16px 0px 16px 24px;
+    top : 33%;
+    right : 8%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+.b-cart-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+.b-cart-des{
+    font-size: .812rem;
+    color: rgba(255, 255, 255, 0.65);
+  }
+.b-cart-2{
+    position: absolute;
+    width: 12.87rem;
+    padding: 20px 23px;
+    top: 67%;
+    right: 28%;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, -0.54);
+  }
+  .b-cart2-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .b-cart2-circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+  }
+  .b-cart-title-2{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+  .b-cart-des2{
+    color: rgba(239, 237, 232, 0.65);
+  }
